@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  font-size: 40px;
+}
+.btn{
+  margin:1px;
+  padding: auto;
+  outline: none;
+}
+.btn:active{
+  margin:1px;
+  padding: auto;
+  outline: none;
+}
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width: 100vw;
+}
+
+.clear {
+  background-color: #f0595f;
+  border-color: #b0353a;
+  color: #fff;
+}
+
+.clear:hover {
+  background-color: #f17377;
+  border-color: #b0353a;
+}
+
+.operator{
+    background-color: #59f06d;
+  border-color: #15b638;
+  color: #fff;
+}
+
+.operator:hover {
+  background-color: #89f397;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.bg-green{
+  background-color: #59f06d;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nama Nama Planet Star Wars</title>
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <br>
+            <div class="col-md-7 tx-white">
+                <h1>Planet StarWars</h1>
+            </div>
+            <br>
+            <div class="col-md-5">
+                <div class="input-group shadow">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Filter</span>
+                    </div>
+                    <input type="text" class="form-control" oninput="search()" placeholder="Cari Data" id="search">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 table-responsive">
+                <table class="table table-bordered table-striped table-dark shadow">
+                    <thead class="tx-white">
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>Periode Rotasi</th>
+                            <th>Periode Orbit</th>
+                            <th>Diameter</th>
+                            <th>Climate</th>
+                            <th>Gravity</th>
+                            <th>Terrain</th>
+                            <th>Surface Water</th>
+                            <th>Population</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dataPlanet"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
